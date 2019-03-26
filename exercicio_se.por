@@ -5,13 +5,14 @@ programa
 	{
 		cadeia respostaAtendente
 		inteiro litrosDeLeite = 1
+    constante sim = "sim"
 
 		escreva("Amore, vá ao mercado e compre 1 leite\n Se houver ovos, traga 6\n ")
 		escreva("Pergunta ao atendente\n")
 		escreva("Você tem ovos?\n")
 		leia(respostaAtendente)
 
-		se(respostaAtendente == "sim"){
+		se(respostaAtendente == sim){
 			litrosDeLeite = litrosDeLeite + 5
 		}
 
